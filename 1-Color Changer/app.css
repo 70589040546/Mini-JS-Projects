@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.changeBtn {
+  padding: 10px 8px;
+  font-size: 2rem;
+  border-radius: 6px;
+}
+.changeBtn:hover {
+  background-color: gray;
+}
